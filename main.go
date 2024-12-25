@@ -1,6 +1,15 @@
+//var variable-name datatype = value
+
 package main
-import "fmt"
+
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("hello world!")
+	var name string = "Timothy"
+	var age int = 35
+	var married bool = true
+
+	fmt.Println(name, age, married)
 }
